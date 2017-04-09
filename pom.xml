@@ -18,11 +18,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.springside</groupId>
-      <artifactId>springside-core</artifactId>
-      <version>${springside.version}</version>
-    </dependency>
+      <dependency>
+          <groupId>org.springframework.session</groupId>
+          <artifactId>spring-session</artifactId>
+          <version>1.3.0.RELEASE</version>
+      </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
